@@ -1,0 +1,26 @@
+{
+  "visual": {
+    "name": "SIQ_BetterTooltips",
+    "displayName": "SIQ Better Tooltips",
+    "guid": "SIQ_BetterTooltips",
+    "visualClassName": "Visual",
+    "version": "1.0.0.0",
+    "description": "A professional rich markdown tooltip custom visual for Power BI reports.",
+    "supportUrl": "mailto:gabe.chisholm@synapsysiq.co.uk",
+    "gitHubUrl": ""
+  },
+  "apiVersion": "5.3.0",
+  "author": {
+    "name": "SynapsysIQ",
+    "email": "gabe.chisholm@synapsysiq.co.uk"
+  },
+  "assets": {
+    "icon": "assets/icon.png"
+  },
+  "externalJS": null,
+  "style": "style/visual.less",
+  "capabilities": "capabilities.json",
+  "dependencies": null,
+  "stringResources": [],
+  "version": "1.0.0.0"
+}

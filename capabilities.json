@@ -1,0 +1,248 @@
+{
+    "dataRoles": [
+        {
+            "displayName": "Tooltip Measure (Markdown)",
+            "name": "tooltipMeasure",
+            "kind": "Measure"
+        }
+    ],
+    "dataViewMappings": [
+        {
+            "categorical": {
+                "values": {
+                    "select": [
+                        {
+                            "bind": {
+                                "to": "tooltipMeasure"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ],
+    "objects": {
+        "trigger": {
+            "displayName": "Trigger Settings",
+            "properties": {
+                "type": {
+                    "displayName": "Trigger type",
+                    "type": {
+                        "enumeration": [
+                            { "value": "icon", "displayName": "Icon" },
+                            { "value": "text", "displayName": "Text" },
+                            { "value": "both", "displayName": "Icon + Text" },
+                            { "value": "transparent", "displayName": "Transparent Block" }
+                        ]
+                    }
+                },
+                "text": {
+                    "displayName": "Trigger text",
+                    "type": {
+                        "text": true
+                    }
+                },
+                "iconText": {
+                    "displayName": "Icon symbol / text",
+                    "type": {
+                        "text": true
+                    }
+                },
+                "iconSize": {
+                    "displayName": "Icon/Text size (px)",
+                    "type": {
+                        "integer": true
+                    }
+                },
+                "color": {
+                    "displayName": "Color",
+                    "type": {
+                        "fill": {
+                            "solid": {
+                                "color": true
+                            }
+                        }
+                    }
+                },
+                "bgColor": {
+                    "displayName": "Background color",
+                    "type": {
+                        "fill": {
+                            "solid": {
+                                "color": true
+                            }
+                        }
+                    }
+                },
+                "borderColor": {
+                    "displayName": "Border color",
+                    "type": {
+                        "fill": {
+                            "solid": {
+                                "color": true
+                            }
+                        }
+                    }
+                },
+                "borderWidth": {
+                    "displayName": "Border width (px)",
+                    "type": {
+                        "integer": true
+                    }
+                }
+            }
+        },
+        "tooltip": {
+            "displayName": "Tooltip Settings",
+            "properties": {
+                "markdown": {
+                    "displayName": "Markdown content",
+                    "type": {
+                        "text": true
+                    }
+                },
+                "useNative": {
+                    "displayName": "Use native Power BI tooltip",
+                    "type": {
+                        "bool": true
+                    }
+                },
+                "width": {
+                    "displayName": "Width (px)",
+                    "type": {
+                        "integer": true
+                    }
+                },
+                "maxHeight": {
+                    "displayName": "Maximum height (px)",
+                    "type": {
+                        "integer": true
+                    }
+                },
+                "bgColor": {
+                    "displayName": "Background color",
+                    "type": {
+                        "fill": {
+                            "solid": {
+                                "color": true
+                            }
+                        }
+                    }
+                },
+                "textColor": {
+                    "displayName": "Text color",
+                    "type": {
+                        "fill": {
+                            "solid": {
+                                "color": true
+                            }
+                        }
+                    }
+                },
+                "borderColor": {
+                    "displayName": "Border color",
+                    "type": {
+                        "fill": {
+                            "solid": {
+                                "color": true
+                            }
+                        }
+                    }
+                },
+                "borderRadius": {
+                    "displayName": "Border radius (px)",
+                    "type": {
+                        "integer": true
+                    }
+                },
+                "shadow": {
+                    "displayName": "Shadow",
+                    "type": {
+                        "bool": true
+                    }
+                },
+                "fontFamily": {
+                    "displayName": "Font family",
+                    "type": {
+                        "text": true
+                    }
+                },
+                "fontSize": {
+                    "displayName": "Font size (pt)",
+                    "type": {
+                        "integer": true
+                    }
+                },
+                "padding": {
+                    "displayName": "Padding (px)",
+                    "type": {
+                        "integer": true
+                    }
+                },
+                "placement": {
+                    "displayName": "Placement",
+                    "type": {
+                        "enumeration": [
+                            { "value": "auto", "displayName": "Auto" },
+                            { "value": "top", "displayName": "Top" },
+                            { "value": "right", "displayName": "Right" },
+                            { "value": "bottom", "displayName": "Bottom" },
+                            { "value": "left", "displayName": "Left" }
+                        ]
+                    }
+                },
+                "offsetX": {
+                    "displayName": "Offset X (px)",
+                    "type": {
+                        "integer": true
+                    }
+                },
+                "offsetY": {
+                    "displayName": "Offset Y (px)",
+                    "type": {
+                        "integer": true
+                    }
+                },
+                "showClose": {
+                    "displayName": "Show close button",
+                    "type": {
+                        "bool": true
+                    }
+                },
+                "openBehavior": {
+                    "displayName": "Open behavior",
+                    "type": {
+                        "enumeration": [
+                            { "value": "hover", "displayName": "Hover" },
+                            { "value": "click", "displayName": "Click" }
+                        ]
+                    }
+                },
+                "animation": {
+                    "displayName": "Animation",
+                    "type": {
+                        "enumeration": [
+                            { "value": "none", "displayName": "None" },
+                            { "value": "fade", "displayName": "Fade" },
+                            { "value": "slide", "displayName": "Slide" },
+                            { "value": "scale", "displayName": "Scale" }
+                        ]
+                    }
+                },
+                "duration": {
+                    "displayName": "Animation duration (ms)",
+                    "type": {
+                        "integer": true
+                    }
+                },
+                "zIndex": {
+                    "displayName": "Z-index / Depth",
+                    "type": {
+                        "integer": true
+                    }
+                }
+            }
+        }
+    },
+    "privileges": []
+}
