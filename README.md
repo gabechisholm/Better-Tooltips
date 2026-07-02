@@ -1,4 +1,4 @@
-[SIQ Tooltips Banner](assets/SIQ_Tooltips_Banner.png)
+![SIQ Tooltips Banner](assets/SIQ_Tooltips_Banner.png)
 
 # SIQ Better Tooltips - Power BI Custom Visual
 
