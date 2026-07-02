@@ -1,3 +1,5 @@
+[SIQ Tooltips Banner](assets/SIQ_Tooltips_Banner.png)
+
 # SIQ Better Tooltips - Power BI Custom Visual
 
 **SIQ Better Tooltips** is a professional custom visual designed for Microsoft Power BI reports, published by **SynapsysIQ**. It lets report authors place a compact hover/click trigger (such as an info icon, text label, or invisible block) on the canvas that displays a rich Markdown-styled tooltip on hover or click. 
